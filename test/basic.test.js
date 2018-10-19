@@ -31,4 +31,3 @@ test('MelodyGenerator.fromString("note(A4, Q)") should plays note(A4, Q)', () =>
         .toHaveBeenCalledWith(durations.Q, note('A4'))
     );
 });
-
